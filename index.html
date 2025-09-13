@@ -45,7 +45,7 @@
     <div class="card" id="card">
       <h1>🎉 Chúc mừng sinh nhật!</h1>
       <div id="content">
-        <p class="lead">Gửi tới bạn thân yêu — mở link này để nhận lời chúc.</p>
+        <p class="lead">Gửi cho con heo nào đó — nhập tên cho bố để nhận lời chúc.</p>
 
         <!-- If name known, show here -->
         <div id="showArea" style="display:none">
@@ -103,7 +103,7 @@
       const safe = String(name || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
       nameText.innerHTML = safe;
       // You can customize the wishes here or randomize
-      wishText.innerHTML = `Chúc ${safe} thêm tuổi mới tràn đầy sức khỏe, niềm vui và thật nhiều thành công. Hôm nay là ngày của bạn — hãy tận hưởng từng khoảnh khắc! 🎂✨`;
+      wishText.innerHTML = `Chúc Mỹ Ngân tuổi mới nhiều sức khỏe dễ thương hơn, học giỏi hơn, vui nhiều hơn, tuổi mới nhiều điều mới, nhớ là phải dễ thươngggg hơn nhaaaa 🎂✨`;
       showArea.style.display = 'block';
       inputArea.style.display = 'none';
       spawnConfetti();
@@ -168,4 +168,5 @@
   </script>
 </body>
 </html>
+
 
